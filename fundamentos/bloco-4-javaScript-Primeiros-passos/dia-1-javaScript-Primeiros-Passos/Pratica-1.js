@@ -1,0 +1,12 @@
+const a = 10;
+const b = 20;
+let soma = a + b
+console.log(`Soma = ${soma}`)
+let subtracao = a - b
+console.log(`Subtração = ${subtracao}`)
+let multiplicacao = a * b
+console.log(`Multiplicação = ${multiplicacao}`)
+let divisao = a / b
+console.log(`Divisão = ${divisao}`)
+let restoDivisao = a % b
+console.log(`Modulo = ${restoDivisao}`)
