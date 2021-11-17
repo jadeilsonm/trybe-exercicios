@@ -101,6 +101,26 @@
           tagH3.innerText = 'Subititulo '+ (i+1);
           tagMain.appendChild(tagH3);
       }
+
+      tagH1.className = 'title';
+
+      let arrH3 = document.querySelectorAll('h3');
+      for (const item of arrH3) {
+          item.className = 'description';
+      }
+
+      tagMain.removeChild(sectionLeft);
+
+      sectionRight.style.margin = 'auto';
+
+      tagSection.style.backgroundColor = 'green';
+
+      let arrLi = document.querySelectorAll('li');
+      for (const item of arrLi) {
+          if (item.innerText === 'dez' || item.innerText === 'nove'){
+              tagUl.removeChild(item);
+          }
+      }
     </script>
   </body>
 </html>
