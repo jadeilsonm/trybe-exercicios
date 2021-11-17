@@ -56,6 +56,20 @@
 
       const terceiroFilho = filhoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
       console.log(terceiroFilho);
+
+
+      const pai = document.getElementById('pai');
+
+      for (let index = 0; index < pai.childNodes.length ; index += 1) {
+        const elemnto = pai.childNodes[index];
+        if (elemnto.id !== 'elementoOndeVoceEsta') {
+          elemnto.remove();
+        }
+      }
+
+      const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+      segundoEUltimoFilhoDoFilho.remove();
+
     </script>
   </body>
 </html>
