@@ -1,11 +1,8 @@
-/* const a = 10;
-const b = 20;
-let sub = a - b
-console.log(`Subtração = ${sub}`) */
+let var1 = 10;
+let var2 = 20;
 
-
-let r = 0
-for(x = 0; x < 4; ++x){
-    r += x
-    console.log(r)
+if (var1 > var2) {
+    console.log(`Maior valor ${var1}`);
+} else {
+    console.log(`Maior valor ${var2}`);
 }
