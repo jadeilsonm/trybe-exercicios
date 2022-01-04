@@ -60,5 +60,26 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
-  // Adicione o código do exercício aqui:
+
+
+//   const autores = books.reduce((acc, curr) => acc + (curr.author).name,'');
+
+//   console.log(autores);
+
+  // function averageAge() {
+  //   return books.reduce((acc, curr) => {
+  //       console.log(acc);
+  //       console.log(curr.releaseYear);
+  //       console.log(curr.author.birthYear);
+  //       return acc + (curr.releaseYear - curr.author.birthYear)
+  //   }, 0);
+  // }
+  // const totalIdade = averageAge();
+  // const quantidadeAutores = books.length;
+  // console.log( 'mediaIdade', totalIdade / quantidadeAutores);
+
+  // function longestNamedBook() {
+  //   return books.reduce((acc,curr) => acc.name.length > curr.name.length ? acc : curr)
+  // }
+
+  // console.log(longestNamedBook());
